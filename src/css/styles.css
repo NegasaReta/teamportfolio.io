@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 7% 15%;
+    line-height: 1.6;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;*/
+    background: linear-gradient(to left top, #031A9A, #8B53ff); 
+}
+#introduction{
+    text-align: center;
+}
+
+#wrapper{
+    padding: 7% 15%;
+    text-align: center;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100%/ 3)-12px);
+    gap: 16px;
+    overflow: hidden;
+}
+#carousel .card {
+    list-style: none;
+
+
+} 
+.wrapper .card{
+    display: grid;
+    grid-auto-flow:column;
+    grid-auto-columns: calc((100% / 3) -12px);
+    gap: 16px;
+
+
+
+}
+.card .img img {
+    width: 140%;
+    height: 140%;
+    object-fit: cover;
+} */
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    align-items: center;
+}
+section .meet{
+    text-align: center;
+}
+
+.contactus{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.service {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #555;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
